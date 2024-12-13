@@ -62,7 +62,7 @@ function Footer() {
         <div className='location flex justify-center items-center mx-auto'>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3822.304466747485!2d74.23762817510816!3d16.661640823306634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0ffc36c09045f%3A0x8527746f1944de5d!2sYAMA%20Constructions!5e0!3m2!1sen!2sin!4v1706961442539!5m2!1sen!2sin"
-            allowfullscreen="none" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            loading="lazy"></iframe>
         </div>
       </div>
     </div>

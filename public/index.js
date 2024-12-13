@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 import Background from '../public/background.png'
 import Background1 from '../public/background2.png'
 import Background2 from '../public/background3.png'
-=======
 // import Img1 from '@/public/img1.png'
 // import Img2 from '@/public/img2.png'
 // import Img3 from '@/public/img3.png'
@@ -13,7 +12,6 @@ import Background2 from '../public/background3.png'
 // import Backgroundbanar from '@/public/Background Banar.png'
 // import Constructions from '@/public/constructions.png'
 import Background from '../public/background1.png'
->>>>>>> origin
 import Linkedin from '../public/linkedin.png'
 import Instagram from '../public/instagram.png'
 import Facebook from '../public/facebook.png'
@@ -22,11 +20,9 @@ import Mail from '../public/Mail.png'
 import Whatsapp from '../public/whatsapp.png'
 
 export {
-<<<<<<< HEAD
     Background,
     Background1,
     Background2,
-=======
     // Img1,
     // Img2,
     // Img3,
@@ -37,7 +33,6 @@ export {
     // Backgroundbanar,
     // Constructions,
     Background,
->>>>>>> origin
     Linkedin,
     Whatsapp,
     Instagram,
