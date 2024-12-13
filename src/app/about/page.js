@@ -6,12 +6,14 @@ import { Fullscreen } from 'lucide-react'
 function About() {
   return (
     <div>
-      <div className='banar'>
+      <div className='banar w-full h-auto'>
         <Image
         src={Background}
-        width={1500}
-        height={300}
-        alt='Background banar'/>
+        width={500}
+        height={500}
+        alt='Background banar'
+        className='w-full h-[800px]'
+        />
       </div>
     </div>
   )
