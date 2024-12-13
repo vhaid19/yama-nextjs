@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 function nav2() {
     return (
-        <div className='text-black'>
-            <div className='menu flex flex-col w-full items-center mr-20 '>
+        <>
+            <div className=' text-black flex flex-col w-full items-center mr-20 '>
                 <Link
                     href='/'
                 >
@@ -33,7 +33,7 @@ function nav2() {
                 </Link>
 
             </div>
-        </div>
+        </>
     )
 }
 
