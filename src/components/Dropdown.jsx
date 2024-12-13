@@ -14,7 +14,7 @@ function Dropdown() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div>
+        <>
             <div className="desktop-size md:flex hidden">
                 <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
                     <DropdownMenuTrigger
@@ -78,7 +78,7 @@ function Dropdown() {
                 </DropdownMenu>
 
             </div>
-        </div>
+        </>
     )
 }
 

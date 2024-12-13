@@ -136,13 +136,13 @@ function Navbar() {
                 <div className='menu-icon md:hidden flex mr-14'>
                     <Sheet>
                         <SheetTrigger asChild className='my-auto'>
-                            <Button variant="none">Open</Button>
+                            <Button variant="none">Menu</Button>
                         </SheetTrigger>
                         <SheetContent className='text-black'>
                             <SheetHeader >
-                                <SheetTitle>Edit profile</SheetTitle>
+                                <SheetTitle>Navigation Menu</SheetTitle>
                                 <SheetDescription>
-                                    Make changes to your profile here. Click save when you're done.
+                                    Navigate through our website.
                                 </SheetDescription>
                             </SheetHeader>
                             <Nav2 />
