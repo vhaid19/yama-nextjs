@@ -7,7 +7,7 @@
 // import Image1 from '@/public/image 1.png'
 // import Backgroundbanar from '@/public/Background Banar.png'
 // import Constructions from '@/public/constructions.png'
-// import Background from '@/public/background 3.png'
+import Background from '../public/background1.png'
 import Linkedin from '../public/linkedin.png'
 import Instagram from '../public/instagram.png'
 import Facebook from '../public/facebook.png'
@@ -25,7 +25,7 @@ export {
     // Image1,
     // Backgroundbanar,
     // Constructions,
-    // Background,
+    Background,
     Linkedin,
     Whatsapp,
     Instagram,
