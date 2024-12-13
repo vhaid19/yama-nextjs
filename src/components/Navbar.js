@@ -105,34 +105,34 @@ function Navbar() {
                 </div>
             </nav>
             <nav className='nav2-menu w-full h-16 bg-black border-white border-b-[1px] rounded-b-2xl flex justify-end'>
-            <div className='menu md:flex hidden items-center mr-20 '>
-                <Link
-                    href='/'
-                >
-                    <div className='home m-2 uppercase text-xl'>Home</div>
-                </Link>
-                <Link
-                    href='/about'
-                >
-                    <div className='home m-2 uppercase text-xl'>About</div>
-                </Link>
-                <Link
-                    href='/services'
-                >
-                    <div className='home m-2 uppercase text-xl'><Dropdown /></div>
-                </Link>
-                <Link
-                    href='/projects'
-                >
-                    <div className='home m-2 uppercase text-xl'>Projects</div>
-                </Link>
-                <Link
-                    href='/contact'
-                >
-                    <div className='home m-2 uppercase text-xl'>Contact</div>
-                </Link>
+                <div className='menu md:flex hidden items-center mr-20 '>
+                    <Link
+                        href='/'
+                    >
+                        <div className='home m-2 uppercase text-xl'>Home</div>
+                    </Link>
+                    <Link
+                        href='/about'
+                    >
+                        <div className='home m-2 uppercase text-xl'>About</div>
+                    </Link>
+                    <Link
+                        href='/services'
+                    >
+                        <div className='home m-2 uppercase text-xl'><Dropdown /></div>
+                    </Link>
+                    <Link
+                        href='/projects'
+                    >
+                        <div className='home m-2 uppercase text-xl'>Projects</div>
+                    </Link>
+                    <Link
+                        href='/contact'
+                    >
+                        <div className='home m-2 uppercase text-xl'>Contact</div>
+                    </Link>
 
-            </div>
+                </div>
                 <div className='menu-icon md:hidden flex mr-14'>
                     <Sheet>
                         <SheetTrigger asChild className='my-auto'>
@@ -145,7 +145,7 @@ function Navbar() {
                                     Make changes to your profile here. Click save when you're done.
                                 </SheetDescription>
                             </SheetHeader>
-                                <Nav2 />
+                            <Nav2 />
                         </SheetContent>
                     </Sheet>
                 </div>
