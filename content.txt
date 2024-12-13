@@ -1,6 +1,6 @@
 ✔
 
-all pages are files creat:-
-create dynamic pages:-
+all pages are files creat:-✔
+create dynamic pages:-✔
 conect to database:-
 create contact page and save form data in database:-
