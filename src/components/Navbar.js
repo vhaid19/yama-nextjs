@@ -134,14 +134,14 @@ function Navbar() {
 
                 </div>
                 <div className='menu-icon md:hidden flex mr-14'>
-                    <Sheet>
+                    <Sheet className=''>
                         <SheetTrigger asChild className='my-auto'>
                             <Button variant="none">Menu</Button>
                         </SheetTrigger>
-                        <SheetContent className='text-black'>
-                            <SheetHeader >
-                                <SheetTitle>Navigation Menu</SheetTitle>
-                                <SheetDescription>
+                        <SheetContent className='text-white bg-black'>
+                            <SheetHeader className='text-white'>
+                                <SheetTitle className='text-white'>Navigation Menu</SheetTitle>
+                                <SheetDescription className='text-white'>
                                     Navigate through our website.
                                 </SheetDescription>
                             </SheetHeader>

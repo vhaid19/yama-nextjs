@@ -5,7 +5,7 @@ import Link from 'next/link'
 function nav2() {
     return (
         <>
-            <div className=' text-black flex flex-col w-full items-center mr-20 '>
+            <div className=' text-white flex flex-col w-full items-center mr-20 '>
                 <Link
                     href='/'
                 >

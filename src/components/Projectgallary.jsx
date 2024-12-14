@@ -45,49 +45,49 @@ export default function GalleryPage() {
     {
       url: Img1,
       title: 'Image 1',
-      description: 'Description 1',
+      description: 'Project 1',
       width: 300,
       height: 400
     },
     {
       url: Img2,
-      title: 'Image 1',
-      description: 'Description 1',
+      title: 'Image 2',
+      description: 'Project 2',
       width: 300,
       height: 400
     },
     {
       url: Img3,
-      title: 'Image 1',
-      description: 'Description 1',
+      title: 'Image 3',
+      description: 'Project 3',
       width: 300,
       height: 400
     },
     {
       url: Img4,
-      title: 'Image 1',
-      description: 'Description 1',
+      title: 'Image 4',
+      description: 'Project 4',
       width: 300,
       height: 400
     },
     {
       url: Img5,
-      title: 'Image 1',
-      description: 'Description 1',
+      title: 'Image 5',
+      description: 'Project 5',
       width: 300,
       height: 400
     },
     {
       url: Img6,
-      title: 'Image 1',
-      description: 'Description 1',
+      title: 'Image 6',
+      description: 'Project 6',
       width: 300,
       height: 400
     },
     {
       url: Img7,
-      title: 'Image 1',
-      description: 'Description 1',
+      title: 'Image 7',
+      description: 'Project 7',
       width: 300,
       height: 400
     },

@@ -56,7 +56,7 @@ function Footer() {
             ))}
           </div>
         </div>
-        <div className='menu mx-auto'>
+        <div className='menu mx-auto text-white'>
           <Nav2 />
         </div>
         <div className='location flex justify-center items-center mx-auto'>

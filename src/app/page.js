@@ -33,10 +33,10 @@ function page() {
       <main>
         <Backgrounds />
       </main>
-      <div className='md:flex justify-around w-full h-auto py-14 '>
+      <div className='md:flex md:justify-around w-[90%] md:mx-0 mx-auto justify-center h-auto py-14 md:w-full'>
         <div className='info-contenar'>
           <h1 className='title md:text-4xl text-2xl p-4 text-orange-600'>Welcome To Yama Constructions Real Solutions.</h1>
-          <div className='company-key-points my-4'>
+          <div className='company-key-points my-4 '>
             {
               keypoints.map((keypoint, index)=>{
                 return(
@@ -49,7 +49,7 @@ function page() {
             }
           </div>
         </div>
-        <div className='img-contenar'>
+        <div className='img-contenar flex justify-center items-center'>
           <Image 
           src={Frame1}
           width={400}
@@ -65,7 +65,9 @@ function page() {
       <div className='landscap-cart'>
         <LandscapeCard />
       </div>
+      <hr className='w-[90%] mx-auto'/>
       <div className='gallary'>
+        <h1 className='text-5xl underline text-center'>Project Gallery</h1>
         <Gallery />
       </div>
     </div>

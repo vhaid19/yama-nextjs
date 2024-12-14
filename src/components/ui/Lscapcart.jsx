@@ -14,7 +14,7 @@ const LandscapeCard = ({ imageUrl, title }) => {
   const [isLiked, setIsLiked] = useState(false)
 
   return (
-    <div className="relative flex w-full max-w-md h-48 bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:scale-102 cursor-pointer">
+    <div className="relative flex w-full mx-auto max-w-md h-48 bg-slate-700 text-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:scale-102 cursor-pointer">
       {/* Left side image */}
       <div className="absolute left-0 h-full w-1/3">
         <Image
@@ -28,7 +28,7 @@ const LandscapeCard = ({ imageUrl, title }) => {
 
       {/* Center content */}
       <div className="absolute left-1/3 right-0 h-full flex flex-col justify-center items-center px-6">
-        <h2 className="text-xl font-semibold text-gray-800 mb-2 transition-colors hover:text-blue-600">
+        <h2 className="text-xl font-semibold text-white mb-2 transition-colors hover:text-blue-600">
           {title}
         </h2>
 
