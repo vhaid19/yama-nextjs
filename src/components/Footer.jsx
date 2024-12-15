@@ -38,7 +38,7 @@ function Footer() {
     <div>
       <div className='footer w-full h-auto md:flex-row flex-col bg-slate-600 flex justify-between p-4'>
         <div className='discription w-1/3 flex flex-col items-center justify-center mx-auto'>
-          <h1 className='text-3xl text-orange-600 font-semibold'>Yama Construction</h1>
+          <h1 className='text-3xl text-orange-600 font-semibold'>Yama Constructions</h1>
           <p className='w-[380px]'>
             Yama Constructions is one of the best Service Provider of Architectural Consultancy in Kolhapur, Maharashtra </p>
           <div className='social-icon flex items-center gap-3 bg-transparent'>

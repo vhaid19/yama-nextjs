@@ -22,9 +22,9 @@ function AboutUs() {
             <div className='flex justify-around flex-wrap'>
                 <h1 className='text-3xl text-orange-600'>About Us</h1>
                 <div className="buttons md:gap-6 flex md:flex-row flex-col gap-3">
-                    <Link href='/compoverview'><Button className='border-2 border-orange-600 text-xl bg-transparent'>Company Overview</Button></Link>
-                    <Link href='/compoverview'><Button className='border-2 border-orange-600 text-xl bg-transparent'>Our History</Button></Link>
-                    <Link href='/compoverview'><Button className='border-2 border-orange-600 text-xl bg-transparent'>Company team</Button></Link>
+                    <Link href='/about/compoverview'><Button className='border-2 border-orange-600 text-xl bg-transparent'>Company Overview</Button></Link>
+                    <Link href='/about/ourhistory'><Button className='border-2 border-orange-600 text-xl bg-transparent'>Our History</Button></Link>
+                    <Link href='/about/companyteam'><Button className='border-2 border-orange-600 text-xl bg-transparent'>Company team</Button></Link>
                 </div>
 
                 <div className='company goal flex gap-8 my-5 md:flex-row flex-col md:gap-48'>
