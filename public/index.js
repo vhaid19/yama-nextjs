@@ -30,6 +30,9 @@ import Img4 from './img4.png'
 import Img5 from './img5.png'
 import Img6 from './img6.png'
 import Img7 from './img7.png'
+import Prjakta from './prajaktam.jpeg'
+import Saad from './Saad.png'
+import Aman from './Aman.jpeg'
 
 
 export {
@@ -64,5 +67,8 @@ export {
     Img5,
     Img6,
     Img7,
+    Prjakta,
+    Saad,
+    Aman
 
 }
