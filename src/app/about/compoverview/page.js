@@ -43,7 +43,7 @@ function Compoverview() {
             width={500}
             height={500}
             alt='Background2' 
-            className='rounded-lg'
+            className='rounded-lg grayscale hover:grayscale-0'
             />
         </div>
       </div>
@@ -58,7 +58,7 @@ function Compoverview() {
                 width={500}
                 height={500}
                 alt='company employe'
-                className='rounded-lg transition ease-in-out delay-100 group-hover:-translate-y-5 group-hover:scale-105 duration-600 group-hover:z-30'
+                className='rounded-lg grayscale hover:grayscale-0 transition ease-in-out delay-100 group-hover:-translate-y-5 group-hover:scale-105 duration-600 group-hover:z-30'
               />
             </div>
             <div className='border-2 rounded-lg transition ease-in-out delay-150 hover:scale-110 duration-300'>
@@ -67,7 +67,7 @@ function Compoverview() {
                 width={500}
                 height={500}
                 alt='Company Employe'
-                className='rounded-lg transition ease-in-out delay-100 hover:-translate-y-5  hover:scale-105 duration-600'
+                className='rounded-lg transition grayscale hover:grayscale-0 ease-in-out delay-100 hover:-translate-y-5  hover:scale-105 duration-600'
               />
             </div>
           </div>
@@ -78,7 +78,7 @@ function Compoverview() {
                 width={500}
                 height={500}
                 alt='Aman'
-                className='rounded-lg transition ease-in-out delay-100 hover:-translate-y-5  hover:scale-105 duration-300'
+                className='rounded-lg transition grayscale hover:grayscale-0 ease-in-out delay-100 hover:-translate-y-5  hover:scale-105 duration-300'
               />
             </div>
           </div>

@@ -32,7 +32,7 @@ import Img6 from './img6.png'
 import Img7 from './img7.png'
 import Prjakta from './prajaktam.jpeg'
 import Saad from './Saad.png'
-import Aman from './Aman.jpeg'
+import Aman from './Aman.jpg'
 
 
 export {
