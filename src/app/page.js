@@ -40,9 +40,9 @@ function page() {
             {
               keypoints.map((keypoint, index)=>{
                 return(
-                  <div key={index} className='key-point flex items-center gap-4 my-4 px-4'>
+                  <div key={index} className='key-point flex items-center gap-4 my-4 md:px-4 '>
                     <keypoint.icon />
-                    <h2 className='md:text-3xl text-lg'>{keypoint.points}</h2>
+                    <h2 className='md:w-auto w-80 md:text-3xl text-lg'>{keypoint.points}</h2>
                   </div>
                 )
               })

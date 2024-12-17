@@ -40,7 +40,7 @@ function AboutUs() {
                 <hr className='h-1 w-[80%] mb-8' />
             </div>
             <div className="comoverview md:w-[80%] w-[90%] m-auto">
-                <h1 className='text-5xl'>Company Overview</h1>
+                <h1 className='text-5xl text-orange-600'>Yama Constructions</h1>
                 <div className="shortinfo md:text-2xl text-lg">
                     <div className='info1 mb-5'>YAMA Constructions is registered proprietary firm established in 1993 at Kolhapur owned by Mr. Jiya S. Momin (Chartered Engineer). </div>
                     <div className="info2 mb-5">The profound knowledge and rich experience of the CEO has assisted the company to acquire distinguished position amidst the dependable providers of Consulting Services in India. Apart from being renowned as one of the well-reputed Architectural Consultants, we also specialize in providing Engineering Project Management Services.</div>

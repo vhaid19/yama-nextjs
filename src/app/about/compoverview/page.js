@@ -2,10 +2,12 @@ import Image from 'next/image'
 import React from 'react'
 import { Background2, Prjakta, Saad, Aman } from '@/../public/index'
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
+import Aboutus from '@/components/ui/Aboutus';
 
 function Compoverview() {
   return (
     <div>
+      <Aboutus />
       <div className='w-full h-auto md:p-4 p-6 flex justify-around'>
         <div className='md:w-[30%] md:flex hidden justify-center items-center flex-wrap'>
           <div className='w-[60%] mx-auto'>
