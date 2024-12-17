@@ -61,20 +61,20 @@ function Compoverview() {
                 className='rounded-lg grayscale hover:grayscale-0 transition ease-in-out delay-100 group-hover:-translate-y-5 group-hover:scale-105 duration-600 group-hover:z-30'
               />
             </div>
-            <div className='border-2 rounded-lg transition ease-in-out delay-150 hover:scale-110 duration-300 relative'>
+            <div className='border-2 rounded-lg transition ease-in-out delay-150 hover:scale-110 duration-300'>
               <Image
                 src={Saad}
                 width={500}
                 height={500}
                 alt='Company Employe'
-                className=' relative rounded-lg transition grayscale hover:grayscale-0 ease-in-out delay-100 hover:-translate-y-5  hover:scale-105 duration-600'
+                className='rounded-lg transition grayscale hover:grayscale-0 ease-in-out delay-100 hover:-translate-y-5  hover:scale-105 duration-600'
               />
-              <div className='absolute inset-0 bg-opacity-0 group-hover:bg-opacity-100 transition-all duration-300'>
-                <div className='absolute text-black left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300'>
+              {/* <div className='absolute inset-0 bg-opacity-0 group-hover:bg-opacity-100'>
+                <div className='absolute text-black bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300'>
                   <h1 className=''>Saad Shakha</h1>
                   <h2 className='text-xs'>Revit Modeling</h2>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='one-image'>
