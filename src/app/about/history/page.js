@@ -12,14 +12,6 @@ function History() {
 
         {/* Typing Effect */}
         <div className=" w-full text-center mb-16 bg-transparent relative overflow-hidden">
-          {/* Moving blur effect */}
-          <div className="absolute inset-0 bg-orange-500/30 blur-3xl animate-pulse"
-            style={{
-              animation: 'move 8s infinite linear',
-              background: 'radial-gradient(circle, rgba(251,146,60,0.3) 0%, rgba(251,146,60,0) 70%)',
-            }}
-          />
-
           {/* Existing Typing Animation */}
           <TypeAnimation
             sequence={[
