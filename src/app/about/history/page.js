@@ -1,10 +1,8 @@
-// 'use client'
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import Typedtext from '@/components/Typed'
-// import Typed from 'typed.js'
-import {Architectureebg} from '@/../public/index'
-// import { useEffect, useRef } from 'react'
+import { Architectureebg } from '@/../public/index'
 
 function History() {
   return (
@@ -23,7 +21,7 @@ function History() {
 
         </div>
         <div className='typed-text w-96 text-xl'>
-        <Typedtext Stings={['Hello World', 'Hello This is my page']}/>
+        <Typedtext strings={['Hello World', 'Hello This is my page']}/> 
         </div>
       </div>
       </div>
