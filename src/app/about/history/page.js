@@ -2,7 +2,11 @@ import React from 'react'
 
 function History() {
   return (
-    <div>History</div>
+    <div>
+      <div className='Typing-effect'>
+        
+        </div>
+    </div>
   )
 }
 
