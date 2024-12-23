@@ -4,8 +4,8 @@ function History() {
   return (
     <div>
       <div className='Typing-effect'>
-        
-        </div>
+          
+      </div>
     </div>
   )
 }
