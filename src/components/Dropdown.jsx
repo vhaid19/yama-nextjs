@@ -29,22 +29,22 @@ function Dropdown() {
                         onMouseEnter={() => setIsOpen(true)}
                         onMouseLeave={() => setIsOpen(false)}
                         className='flex flex-col bg-transparent mt-[-10px] pt-6 items-center border-none'>
-                        <Link href="/construction">
+                        <Link href={`/services/constructions`}>
                             <DropdownMenuItem className='text-xl text-orange-500'>
                                 Constructions
                             </DropdownMenuItem>
                         </Link>
-                        <Link href="/consultancy">
+                        <Link href="/services/consultancy">
                             <DropdownMenuItem className='text-xl text-orange-500'>
                                 Consultancy
                             </DropdownMenuItem>
                         </Link>
-                        <Link href="/trunkey">
+                        <Link href="/services/trunkey">
                             <DropdownMenuItem className='text-xl text-orange-500'>
                                 Trunkey solutions
                             </DropdownMenuItem>
                         </Link>
-                        <Link href="/project">
+                        <Link href="/services/project">
                             <DropdownMenuItem className='text-xl text-orange-500'>
                                 Project Management
                             </DropdownMenuItem>

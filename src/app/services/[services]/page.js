@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Services() {
+function page({prams}) {
   return (
-    <div>all services</div>
+    <div>hello every one</div>
   )
 }
 
-export default Services
+export default page
