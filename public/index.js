@@ -33,6 +33,7 @@ import Img7 from './img7.png'
 import Prjakta from './prajaktam.jpeg'
 import Saad from './Saad.png'
 import Aman from './Aman.jpg'
+import Img75 from './img75.png'
 import Architectureebg from './Architecturee_transparant.png'
 
 export {
@@ -70,6 +71,6 @@ export {
     Prjakta,
     Saad,
     Aman,
-    Architectureebg
-
+    Architectureebg,
+    Img75
 }
