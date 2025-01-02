@@ -22,6 +22,7 @@ function Services() {
           src={Img75}
           width={500}
           height={500}
+          alt='img75'
           />
         </section>
       </div>
